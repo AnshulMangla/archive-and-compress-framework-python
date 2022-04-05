@@ -1,0 +1,51 @@
+09:46:33 - 2022:04:06 - Output for Device [primary-host1 - 10.67.28.xxx] 
+-------------------------------------------------------------------------
+
+
+
+
+
+Building configuration...
+
+
+
+Current configuration : 7367 bytes
+
+!
+
+! Last configuration change at 23:17:39 AEST Tue Nov 30 2021
+
+! NVRAM config last updated at 15:46:37 AEST Tue Jan 11 2022
+
+!
+
+version 17.3
+
+service timestamps debug datetime msec
+
+service timestamps log datetime msec
+
+service call-home
+
+platform qfp utilization monitor load 80
+
+platform punt-keepalive disable-kernel-core
+
+platform console virtual
+
+platform hardware throughput level MB 2500 
+
+!
+
+hostname panda_csr
+
+!
+
+boot-start-marker
+
+boot-end-marker
+
+!
+
+!
+
